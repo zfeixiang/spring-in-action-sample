@@ -9,7 +9,7 @@ import org.springframework.core.env.Environment;
 //@Configuration
 //@PropertySource("classpath:/soundsystem.properties")
 public class ExpressiveConfig {
-/*
+/* 配置合并入之前的 CDPlayerConfig 了。。
 	@Autowired
 	Environment env;
 	
