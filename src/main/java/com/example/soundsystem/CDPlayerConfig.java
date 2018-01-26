@@ -13,10 +13,10 @@ import org.springframework.core.env.Environment;
  * 2、使用Java配置，需使用 bean 注解的方法
  * 3、当前为使用 xml 方式的样例
  */
-//@Configuration
+@Configuration
 //@ImportResource(locations="classpath:spring-beans.xml")
 //@ComponentScan("com.example.soundsystem")
-//@PropertySource("classpath:/soundsystem.properties")
+@PropertySource("classpath:/soundsystem.properties")
 public class CDPlayerConfig {
 	
 	@Autowired
