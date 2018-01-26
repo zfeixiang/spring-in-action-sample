@@ -34,13 +34,13 @@ public class CDPlayerConfig {
 		//使用 JavaConfig 装配的类属性名要与此方法名一致
 	}
 	
-	@Bean
+	/*@Bean
 	public BlankDisc compactDisc() {
 		return new BlankDisc(
 				//如果文件中属性值为空，则第二个参数作为默认
 			env.getProperty("disc.title","Rattle and Hum"),
 			env.getProperty("disc.artist","U2"));
 		
-	}
+	}*/
 	
 }

@@ -14,4 +14,10 @@ public class SgtPeppers implements CompactDisc {
 
 	}
 
+	@Override
+	public void playTracks(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

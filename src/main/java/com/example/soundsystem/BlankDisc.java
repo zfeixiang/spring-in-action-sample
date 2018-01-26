@@ -57,6 +57,13 @@ public class BlankDisc implements CompactDisc {
 	public String toString() {
 		return "BlankDisc [title=" + title + ", artist=" + artist + ", tracks=" + tracks + "]";
 	}
+
+	@Override
+	public void playTracks(int trackNum) {
+		if(null != tracks && tracks.size()>=trackNum) {
+			System.out.println(tracks.get(trackNum-1));
+		}
+	}
 	
 	
 

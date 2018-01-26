@@ -4,4 +4,5 @@ public interface CompactDisc {
 
 	void play();
 	
+	void playTracks(int trackNum);
 }
